@@ -3,7 +3,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #e3f2fd;
+    background-color: #B790BD;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     color: #fff;
 }
 
@@ -22,7 +25,9 @@ body {
 }
 
 header h2 {
-    font-size: 1.6rem;
+    font-size: 2.8rem;
+    font-family: "Kapakana", sans-serif;
+    font-weight: 500;
 }
 
 header .column {
@@ -34,6 +39,16 @@ header .column span {
     font-weight: 500;
     margin-right: 15px;
     font-size: 1.19rem;
+}
+
+.volume-slider span {
+    font-family: "Lora", serif;
+    font-weight: 400;
+}
+
+.keys-check span {
+    font-family: "Lora", serif;
+    font-weight: 400;
 }
 
 .volume-slider input {
@@ -116,4 +131,8 @@ header .column span {
 .piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
     background: linear-gradient(to bottom #000, #434343);
+}
+
+.piano-keys .key.hide span {
+    display: none;
 }
