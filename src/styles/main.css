@@ -18,6 +18,9 @@ body {
     border-radius: 20px;
     padding: 35px 40px;
     background-color: #F294B6;
+
+    position: relative;
+    z-index: 2;
 }
 
 .container header {
@@ -44,11 +47,7 @@ header .column span {
     font-size: 1.19rem;
 }
 
-.volume-slider span {
-    font-family: "Lora", serif;
-    font-weight: 400;
-}
-
+.volume-slider span,
 .keys-check span {
     font-family: "Lora", serif;
     font-weight: 400;
@@ -112,7 +111,7 @@ header .column span {
     width: 44px;
     height: 140px;
     z-index: 2;
-    margin: 0 -22px 0 -22px;
+    margin: 0 -22px;
     border: 1px solid black;
     background: linear-gradient(#333, #000);
     border-radius: 0 0 5px 5px;
@@ -128,12 +127,12 @@ header .column span {
 
 .piano-keys .white.active {
     box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom #fff 0%, #eee 100%);
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
 }
 
 .piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
-    background: linear-gradient(to bottom #000, #434343);
+    background: linear-gradient(to bottom, #000, #434343);
 }
 
 .piano-keys .key.hide span {
@@ -141,34 +140,27 @@ header .column span {
 }
 
 .sticker {
-    position: absolute;
-    width: 130px;
+    position: fixed; 
     z-index: 3;
-    animation: float 4s ease-in-out infinite;
 }
 
 .dino {
-    bottom: 245px;
+    top: 300px;
     right: 300px;
     width: 90px;
     transform: rotate(-15deg);
 }
 
 .mymelody {
-    bottom: 100px;
-    right: 280px;
+    bottom: 110px;
+    right: 285px;
     width: 140px;
     transform: rotate(15deg);
 }
 
 .macaroon {
-    bottom: 350px;
+    top: 220px;
     right: 310px;
     width: 75px;
     transform: rotate(15deg);
-}
-
-.container {
-    position: relative;
-    z-index: 2;
 }
