@@ -8,8 +8,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-
-    position: relative;
     overflow: hidden;
 }
 
@@ -141,26 +139,26 @@ header .column span {
 
 .sticker {
     position: absolute;
-    z-index: 3;
+    z-index: 5;
 }
 
 .dino {
-    top: 300px;
-    right: 300px;
+    top: 80px;
+    right: 10px;
     width: 90px;
     transform: rotate(-15deg);
 }
 
 .mymelody {
-    bottom: 110px;
-    right: 285px;
+    bottom: -15px;
+    right: -20px;
     width: 140px;
-    transform: rotate(15deg);
+    transform: rotate(-15deg);
 }
 
 .macaroon {
-    top: 220px;
-    right: 310px;
+    top: 180px;
+    right: 15px;
     width: 75px;
     transform: rotate(15deg);
 }
