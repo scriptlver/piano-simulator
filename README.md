@@ -3,7 +3,7 @@
 um simulador de piano interativo feito com html, css e javascript.  
 o projeto permite tocar notas usando o teclado do computador e clicar nas teclas na tela.
 
-## 🔗 demo
+## 🔗 preview
 
 [piano simulator](https://scriptlver.github.io/piano-simulator/)
 
@@ -31,12 +31,6 @@ esse projeto foi desenvolvido para praticar:
 - estilização com css
 - interação com áudio
 
-## 📸 preview
-
-
-```md
-![preview](src/img/piano.png)
-```
 
 ## ❣️ como executar
 
