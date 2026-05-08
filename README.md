@@ -32,9 +32,8 @@ esse projeto foi desenvolvido para praticar:
 
 ## 📸 preview
 
-```md
 ![preview](src/img/piano.png)
-```
+
 
 ## ❣️ como executar
 
