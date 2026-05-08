@@ -35,7 +35,7 @@ esse projeto foi desenvolvido para praticar:
 
 
 ```md
-![preview](/src/img/piano.png)
+![preview](../src/img/piano.png)
 ```
 
 ## ❣️ como executar
