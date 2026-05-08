@@ -27,7 +27,6 @@ esse projeto foi desenvolvido para praticar:
 
 - manipulação do dom
 - eventos no javascript
-- responsividade
 - estilização com css
 - interação com áudio
 
