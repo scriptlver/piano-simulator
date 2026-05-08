@@ -33,10 +33,9 @@ esse projeto foi desenvolvido para praticar:
 
 ## 📸 preview
 
-adicione aqui uma screenshot do projeto depois 👀
 
 ```md
-![preview](./src/img/piano.png)
+![preview](/src/img/piano.png)
 ```
 
 ## ❣️ como executar
